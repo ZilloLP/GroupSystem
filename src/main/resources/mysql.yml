@@ -1,0 +1,10 @@
+# +--------------------------------------------------+
+# <                   GroupSystem                    >
+# +--------------------------------------------------+
+
+# MySQL data
+Host: localhost
+Port: "3306"
+Database: GroupSystem
+User: root
+Password: 123+

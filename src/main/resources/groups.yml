@@ -1,0 +1,13 @@
+# +--------------------------------------------------+
+# <                   GroupSystem                    >
+# +--------------------------------------------------+
+
+Groups:
+  default:
+    name: 'Default'
+    prefix: '&aDefault &7|&f'
+    sort-number: 1
+  admin:
+    name: 'Admin'
+    prefix: '&4Admin &7|&f'
+    sort-number: 0

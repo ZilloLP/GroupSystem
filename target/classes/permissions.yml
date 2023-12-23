@@ -1,0 +1,7 @@
+# +--------------------------------------------------+
+# <                   GroupSystem                    >
+# +--------------------------------------------------+
+
+ADMIN_PERMISSION: "groupsystem.admin"
+INFO_PERMISSION: "groupsystem.info"
+INFO_OTHER_PERMISSION: "groupsystem.info.other"

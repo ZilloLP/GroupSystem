@@ -1,0 +1,84 @@
+# +--------------------------------------------------+
+# <                   GroupSystem                    >
+# +--------------------------------------------------+
+
+# Basic messages
+PREFIX: "&7[&6GroupSystem&7] "
+UNKNOWN_COMMAND: "&cUnknown command."
+NO_PERMISSION: "&cYou don't have permission to do this."
+UNKNOWN_PLAYER: "&cThis player doesn't exist."
+NO_DATABASE_CONNECTION: "&cThe plugin isn't connected to the database!"
+RELOAD_SETTINGS: "&7The &bsettings &7have been reloaded."
+
+# Groupsystem command messages
+HELP_INFO:
+  0: "&c&lThe Groupsystem commands:"
+  1: "&e/groupsystem help."
+  2: "&7Shows you a list of all commands."
+  3: "&e/groups info."
+  4: "&7Gives you information about your group."
+  5: "&e/groups info <playername>."
+  6: "&7Gives you information about another player's group."
+ADMIN_HELP_INFO:
+  0: "&e/groupsystem reload."
+  1: "&7Reloads the plugin settings."
+  2: "&e/groups create <groupname> <priority> <prefix>."
+  3: "&7Creates a group."
+  4: "&e/groups delete <groupname>."
+  5: "&7Deletes a group."
+  6: "&e/groups set <groupname> name <name>."
+  7: "&7Sets the name of a group."
+  8: "&e/groups set <groupname> prefix <prefix>."
+  9: "&7Sets the prefix of a group."
+  10: "&e/groups set <groupname> priority <priority>."
+  11: "&7Sets the priority of a group."
+  12: "&e/groups add permanently <playername> <groupname>."
+  13: "&7Adds a player permanently to a group."
+  14: "&e/groups add temporarily <playername> <groupname>."
+  15: "&7Adds a player temporarily to a group."
+  16: "&e/groups remove <playername>."
+  17: "&7Removes a player from their group."
+
+# Group messages
+CHAT_FORMAT: "&f<%prefix% %player%&f>"
+JOIN_MESSAGE: "%prefix% %player% &ejoined the game"
+
+# Info sign
+INFO_SIGN_LINES:
+  NAME_LINE: "Name: &e%player%"
+  GROUP_LINE: "Group: &6%group%"
+  NO_GROUP_LINE: "Group: &cNone"
+  PREFIX_LINE: "Prefix: %prefix%"
+  NO_PREFIX_LINE: "Prefix: ?"
+  PERMANENT_LINE: "&cPermanent"
+  TEMPORARILY_LINE: "&b%duration%"
+  NO_DURATION: "?"
+
+# Info sign messages
+SIGN_ALREADY_EXISTS: "&cThis sign is already an info sign."
+CREATE_SIGN: "&7You have set up an info sign."
+DELETE_SIGN: "&7You have removed the info sign."
+
+# Groups command messages
+GROUP_ALREADY_EXISTS: "&cThis group already exists."
+GROUP_DOESNT_EXISTS: "&cThis group doesn't exist."
+WRONG_INPUT: "&cPlease enter a valid number."
+CREATE_GROUP: "&7You've created the group &6%group%&7."
+DELETE_GROUP: "&7The group &6%group%&7 has been deleted."
+REMOVE_PLAYER_GROUP: "&7Player &e%player%&7 has been removed from group &6%group%&7."
+SET_NAME: "&7You've changed the group name to &6%name%&7."
+SET_PREFIX: "&7You've changed the prefix of group &6%group%&7 to &8[&f%prefix%&8]&7."
+SET_PRIORITY: "&7You've changed the group priority to &6%priority%&7."
+GIVE_DAYS: "&7Enter the &6days&7:"
+GIVE_HOURS: "&7Enter the &6hours&7:"
+GIVE_MINUTES: "&7Enter the &6minutes&7:"
+GIVE_SECONDS: "&7Enter the &6seconds&7:"
+ADD_GROUP_PERMANENT: "&7Player &e%player%&7 has been added to group &6%group%&7."
+ADD_GROUP_TEMPORARILY:
+  INFO: "&7Player &e%player%&7 has been added to group &6%group%&7."
+  DURATION: "&7For&8: &b%days% days&7, &b%hours% hours&7, &b%minutes% minutes&7, and &b%seconds% seconds&7."
+GROUP_INFO: "&6&lInfo:"
+GROUP_INFO_NO_GROUP: "&7Group&8: &cNone"
+GROUP_INFO_GROUP: "&7Group&8: &e%group%"
+GROUP_INFO_PERMANENT: "&7Duration: &ePermanent"
+GROUP_INFO_TIME: "&7Duration: &b%duration%&7."

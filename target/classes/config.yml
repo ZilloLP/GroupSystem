@@ -1,0 +1,17 @@
+# +--------------------------------------------------+
+# <                   GroupSystem                    >
+# +--------------------------------------------------+
+
+# Database
+mysql: false
+table-name: "groupsystem_players"
+
+# Groups
+default-group: "default"
+
+# Info sign
+create-tag: "[Info]"
+sign-ticks: 20
+
+# Tablist
+tablist-ticks: 20

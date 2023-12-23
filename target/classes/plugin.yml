@@ -1,0 +1,9 @@
+name: GroupSystem
+version: '1.0.0'
+main: de.zillolp.groupsystem.GroupSystem
+api-version: '1.20'
+commands:
+  groupsystem:
+    description: "Command for the plugin."
+  groups:
+    description: "Command for group management."
